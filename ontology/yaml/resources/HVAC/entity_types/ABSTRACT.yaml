@@ -6488,10 +6488,5 @@ RFVSC2X:
   implements:
   - OPERATIONAL
 
-NEW_TYPE_TEST:  
-  guid: "9cfe1202-d100-4803-a630-251e56e438bc"  
-  description: "testing action permissions"
-  uses:
-  - heat_recovery_return_water_temperature_sensor
-  - heat_recovery_supply_water_temperature_sensor
+
 
