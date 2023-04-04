@@ -6606,3 +6606,19 @@ VMADC:
   - mixed_air_damper_percentage_sensor
   implements:
   - CONTROL
+
+SPLM:
+  description: "Sound pressure level monitoring"
+  is_abstract: true
+  uses:
+  - sound_pressure_sensor
+  implements:
+  - MONITORING
+
+ISM:
+  description: "Illuminance sensor monitoring"
+  is_abstract: true
+  uses:
+  - illuminance_sensor
+  implements:
+  - MONITORING
