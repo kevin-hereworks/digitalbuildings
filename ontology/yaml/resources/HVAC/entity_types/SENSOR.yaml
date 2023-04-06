@@ -245,8 +245,8 @@ SENSOR_CO2M_VOCM:
     - VOCM
 
 
-SENSOR_ZTM_ZHM_CO2M_VOCM_SPLM_ISM:
-  description: "Temperature, humidity, CO2, VOC, sound pressure, illuminance monitoring."
+SENSOR_ZTM_ZHM_CO2M_VOCM_SPLM_ISM_PMM:
+  description: "Temperature, humidity, CO2, VOC, pm2.5, sound pressure, illuminance monitoring."
   is_canonical: true
   implements:
   - /SENSOR
